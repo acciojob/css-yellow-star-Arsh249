@@ -7,43 +7,22 @@ body {
 }
 
 .star {
-  position: relative;
-  display: block;
-  color: yellow;
   width: 0;
   height: 0;
-  border-right: 50px solid transparent;
-  border-bottom: 35px solid yellow;
   border-left: 50px solid transparent;
-  transform: rotate(35deg);
-  margin-bottom: 100px;
+  border-right: 50px solid transparent;
+  border-bottom: 100px solid yellow;
+  position: relative;
 }
 
 .star:before {
-  border-bottom: 35px solid yellow;
-  border-left: 15px solid transparent;
-  border-right: 15px solid transparent;
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -20px;
-  left: -30px;
-  display: block;
   content: '';
-  transform: rotate(-35deg);
-}
-
-.star:after {
-  position: absolute;
-  display: block;
-  color: yellow;
-  top: 3px;
-  left: -65px;
   width: 0;
   height: 0;
-  border-right: 50px solid transparent;
-  border-bottom: 100px solid yellow;
   border-left: 50px solid transparent;
-  transform: rotate(-70deg);
-  content: '';
+  border-right: 50px solid transparent;
+  border-top: 100px solid yellow;
+  position: absolute;
+  top: -60px;
+  left: -50px;
 }
